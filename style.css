@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100 vw;
+    min-height: 100 vh;
+}
+
+.main {
+    color: white;
+    padding: em;
+    margin-top: 50 px;
+    margin-bottom: 50 px;
+    border-color: black;
+    border-radius: 3 px;
+    text-align: center
+}
+
+.welcome {
+    background-color: black;
+    color: white;
+    margin: 2 px;
+}
+
+.contacts_name {
+    background-color: black;
+    color: white;
+    margin: 2 px;
+}
+
+.contacts {
+    color: white;
+    padding: em;
+    margin-top: 50 px;
+    margin-bottom: 50 px;
+    border-color: black;
+    border-radius: 3 px;
+    text-align: left ;
+}
+
+.info {
+    color: white;
+    padding: em;
+    margin-top: 50 px;
+    margin-bottom: 50 px;
+    border-color: black;
+    border-radius: 3 px;
+    text-align: left ;
+}
+
+.info_name {
+    background-color: black;
+    color: white;
+    margin-top: 70 px;
+}
+
+.button {
+    border-radius: 7 px;
+    padding: 1 em;
+    background: rgb (20, 5, 2);
+    color: rgb (255, 255, 255);
+    transform: none;
+    cursor: pointer;
+    box-shadow: none;
+    transition-property: box-shadow, transform;
+    transition-duration: .2 s ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    box-shadow: 2 px 2 px 5 px 2 px #2e2b2b;
+    transform: scale (1.05) rotate (5 deg);
+    transition-duration: .0.5 s;
+    transition: box-shadow .2 s linear, transform .2 s linear;
+}
+
+.button:active {
+    transition-property: box-shadow, transform;
+    box-shadow: none;
+    transform: none;
+    transition: box-shadow .2 s linear, transform .2 s linear;
+}
